@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <script src="angular.min.js"></script>
+  <link href="index.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body ng-app="myapp" ng-controller="formCtrl">
+    <input ng-model="i"/>
+    <button ng-click="addi()">+</button>
+    <button ng-click="subi()">-</button>
+    <table>
+    <tr><td></td><td></td>
+      <td class="t{{a[ 0]}}"></td><td class="t{{a[ 1]}}"></td>
+      <td></td><td></td>
+      <td></td><td></td></tr>
+    <tr><td></td><td></td>
+      <td class="t{{a[ 2]}}"></td><td class="t{{a[ 3]}}"></td>
+      <td></td><td></td>
+      <td></td><td></td></tr>
+
+    <tr>
+      <td class="t{{a[12]}}"></td><td class="t{{a[13]}}"></td>
+      <td class="t{{a[ 4]}}"></td><td class="t{{a[ 5]}}"></td>
+      <td class="t{{a[16]}}"></td><td class="t{{a[17]}}"></td>
+      <td class="t{{a[20]}}"></td><td class="t{{a[21]}}"></td></tr>
+    <tr>
+      <td class="t{{a[14]}}"></td><td class="t{{a[15]}}"></td>
+      <td class="t{{a[ 6]}}"></td><td class="t{{a[ 7]}}"></td>
+      <td class="t{{a[18]}}"></td><td class="t{{a[19]}}"></td>
+      <td class="t{{a[22]}}"></td><td class="t{{a[23]}}"></td></tr>
+
+    <tr><td></td><td></td>
+      <td class="t{{a[ 8]}}"></td><td class="t{{a[ 9]}}"></td>
+      <td></td><td></td>
+      <td></td><td></td></tr>
+    <tr><td></td><td></td>
+      <td class="t{{a[10]}}"></td><td class="t{{a[11]}}"></td>
+      <td></td><td></td>
+      <td></td><td></td></tr>
+    
+    <tr><td></td><td></td>
+      <td></td><td></td>
+      <td></td><td></td>
+      <td></td><td></td></tr>
+
+    <tr><td></td><td></td>
+      <td class="t{{b[ 0]}}"></td><td class="t{{b[ 1]}}"></td>
+      <td></td><td></td>
+      <td></td><td></td></tr>
+    <tr><td></td><td></td>
+      <td class="t{{b[ 2]}}"></td><td class="t{{b[ 3]}}"></td>
+      <td></td><td></td>
+      <td></td><td></td></tr>
+
+    <tr>
+      <td class="t{{b[12]}}"></td><td class="t{{b[13]}}"></td>
+      <td class="t{{b[ 4]}}"></td><td class="t{{b[ 5]}}"></td>
+      <td class="t{{b[16]}}"></td><td class="t{{b[17]}}"></td>
+      <td class="t{{b[20]}}"></td><td class="t{{b[21]}}"></td></tr>
+    <tr>
+      <td class="t{{b[14]}}"></td><td class="t{{b[15]}}"></td>
+      <td class="t{{b[ 6]}}"></td><td class="t{{b[ 7]}}"></td>
+      <td class="t{{b[18]}}"></td><td class="t{{b[19]}}"></td>
+      <td class="t{{b[22]}}"></td><td class="t{{b[23]}}"></td></tr>
+
+    <tr><td></td><td></td>
+      <td class="t{{b[ 8]}}"></td><td class="t{{b[ 9]}}"></td>
+      <td></td><td></td>
+      <td></td><td></td></tr>
+    <tr><td></td><td></td>
+      <td class="t{{b[10]}}"></td><td class="t{{b[11]}}"></td>
+      <td></td><td></td>
+      <td></td><td></td></tr>
+    </table>
+  <script src="index.js"></script>
+  </body>
+</html>

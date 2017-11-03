@@ -1,0 +1,24 @@
+td{
+  width:50px;
+  height:50px;
+  background:lightgrey;
+}
+
+.t1{
+  background:green;
+}
+.t2{
+  background:white;
+}
+.t3{
+  background:blue;
+}
+.t4{
+  background:orange;
+}
+.t5{
+  background:red;
+}
+.t6{
+  background:yellow;
+}
